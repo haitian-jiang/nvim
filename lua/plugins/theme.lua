@@ -9,7 +9,7 @@ return {
       -- ****** 这是关键部分 ******
       -- 将主题风格设置为 'light'
       require("bluloco").setup({
-        style = "auto", -- "auto" | "dark" | "light"
+        style = "light", -- "auto" | "dark" | "light"
         transparent = false,
         italics = false,
         terminal = vim.fn.has("gui_running") == 1, -- bluoco colors are enabled in gui terminals per default.
